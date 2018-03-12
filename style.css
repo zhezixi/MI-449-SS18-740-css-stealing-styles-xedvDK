@@ -45,9 +45,9 @@ input {
   display: inline-block;
   text-align: start;
   margin: 0em 0em 0em 0em;
-  font: 13.3333px Arial;
 	font-family: Merriweather;
-	font-weight: 600;
+	font-size: 16px;
+	font-weight: 300;
   color: #535054;
 }
 
@@ -61,7 +61,7 @@ input[type=tel],
 input[type=text]:not(.CodeMirror-search-field), input[type=url], 
 select,
 textarea {
-	height: 38px;
+	height: 24px;
   padding: 6px 10px;
   background-color: #fff;
 	border: 1px solid #d4dada;
@@ -132,4 +132,5 @@ button:active {
   background-color: #f6f9fc;
   transform: translateY(1px);
   box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+	outline: none;
 }
