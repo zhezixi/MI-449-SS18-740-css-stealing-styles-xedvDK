@@ -45,42 +45,42 @@ input {
   display: inline-block;
   text-align: start;
   margin: 0em 0em 0em 0em;
-	font-family: Merriweather;
-	font-size: 16px;
-	font-weight: 300;
+  font-family: Merriweather;
+  font-size: 16px;
+  font-weight: 300;
   color: #535054;
 }
 
-input:not([type]), 
-input[type=date], 
-input[type=email], 
-input[type=number], 
-input[type=password], 
-input[type=search], 
-input[type=tel], 
-input[type=text]:not(.CodeMirror-search-field), input[type=url], 
+input:not([type]),
+input[type=date],
+input[type=email],
+input[type=number],
+input[type=password],
+input[type=search],
+input[type=tel],
+input[type=text]:not(.CodeMirror-search-field), input[type=url],
 select,
 textarea {
-	height: 24px;
+  height: 24px;
   padding: 6px 10px;
   background-color: #fff;
-	border: 1px solid #d4dada;
+  border: 1px solid #d4dada;
   border-radius: 3px;
   box-shadow: none;
   vertical-align: bottom;
 }
 
-input:not([type]), 
-input[type=date], 
-input[type=email], 
-input[type=number], 
-input[type=password], 
-input[type=search], 
-input[type=tel], 
-input[type=text], 
-input[type=url], 
+input:not([type]),
+input[type=date],
+input[type=email],
+input[type=number],
+input[type=password],
+input[type=search],
+input[type=tel],
+input[type=text],
+input[type=url],
 textarea {
-	-webkit-appearance: none;
+  -webkit-appearance: none;
   width: 100%;
 }
 
@@ -100,22 +100,23 @@ textarea:focus {
 }
 
 button {
-	white-space: nowrap;
+  border: none;
+  white-space: nowrap;
   display: inline-block;
   height: 40px;
   line-height: 40px;
   padding: 0 14px;
-  box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);
+  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
   background: #fff;
   border-radius: 4px;
   font-size: 15px;
   font-weight: 600;
   text-transform: uppercase;
-  letter-spacing: .025em;
+  letter-spacing: 0.025em;
   color: #6772e5;
   text-decoration: none;
-  transition: all .15s ease;
-  font-family: Camphor,Open Sans,Segoe UI,sans-serif;
+  transition: all 0.15s ease;
+  font-family: Camphor, Open Sans, Segoe UI, sans-serif;
   font-style: normal;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
@@ -132,5 +133,5 @@ button:active {
   background-color: #f6f9fc;
   transform: translateY(1px);
   box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
-	outline: none;
+  outline: none;
 }
